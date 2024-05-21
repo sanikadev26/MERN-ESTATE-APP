@@ -8,7 +8,7 @@ dotenv.config();
 const connectDb = async () => {
   const conn = await mongoose
     .connect(
-      "mongodb+srv://sanikadev26:sanika@mern-estate.mbdi362.mongodb.net/?retryWrites=true&w=majority&appName=MERN-ESTATE"
+      "mongodb+srv://sanikadev26:sanikadev26@cluster0.s2stgcy.mongodb.net/"
     )
     .then(() => {
       console.log("Connected to MongoDB!");
